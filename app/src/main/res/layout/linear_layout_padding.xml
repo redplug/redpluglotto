@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="  Margin값을 줄 경우 View 자체가 줄어들게 됨"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_marginLeft="60dp"/>
+    <TextView
+            android:text="Padding를 줄 경우 View 사이즈는 그대로이나 내부 컨텐츠의 영역에 여백을 줌"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2" android:paddingLeft="60dp"/>
+</LinearLayout>

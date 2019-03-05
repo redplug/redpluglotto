@@ -1,0 +1,1 @@
+# STUDY_Android-redpluglotto
